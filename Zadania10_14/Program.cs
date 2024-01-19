@@ -11,11 +11,11 @@ namespace Zadania10_14
     {
         static void Main(string[] args)
         {
-            // Zadania.Zadanie10();
+            Zadania.Zadanie10();
             // Zadania.Zadanie11();
             // Zadania.Zadanie12();
             // Zadania.Zadanie13();
-            Zadania.Zadanie14();
+            //Zadania.Zadanie14();
 
 
         }

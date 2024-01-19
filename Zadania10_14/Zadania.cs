@@ -8,9 +8,11 @@ namespace Zadania10_14
 {
     internal class Zadania
     {
-
+        /*Napisz program drukujący na ekranie kolejne liczby naturalne podzielne przez 7. Ilość liczb
+        wczytaj z klawiatury. Użyj pętli for.*/
         public static void Zadanie10()
         {
+            Console.WriteLine("Podaj ilosc liczb jakie mam wydrukowac: ");
             int liczbaLiczbPodzielnych = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 7; i <= liczbaLiczbPodzielnych; i++)
@@ -18,6 +20,9 @@ namespace Zadania10_14
                 if (i % 7 == 0) Console.WriteLine(i);
             }
         }
+
+        /*Napisz program obliczający sumę n początkowych liczb nieparzystych. Liczbę n należy pobrać
+        od użytkownika. Do obliczenia wartości sumy użyj pętli for.*/
         public static void Zadanie11()
         {
             Console.WriteLine("Podaj liczbe do której chcesz zsumować wszytkie liczby nieparzyste od zera: ");
@@ -37,6 +42,7 @@ namespace Zadania10_14
             Console.WriteLine(suma);
         }
 
+        /*Napisz program drukujący na ekranie liczby. Wysokość wczytaj z klawiatury. Użyj pętli for.*/
         public static void Zadanie12()
         {
             Console.WriteLine("Podaj liczbe rzedow: ");
@@ -55,6 +61,8 @@ namespace Zadania10_14
             } 
         }
 
+        /*Wczytaj liczbę naturalną n (n>4). Narysuj na ekranie ze znaków X kontur trójkąta
+        prostokątnego jak na poniższym przykładzie. Użyj pętli for.*/
         public static void Zadanie13()
         {
             Console.WriteLine("Podaj wysokosc trojkata prostokatnego: ");
@@ -80,6 +88,8 @@ namespace Zadania10_14
             }
         }
 
+        /*Napisz program znajdujący wszystkie trójki liczb pitagorejskich z zadanego przedziału.
+        Np.: dla przedziału [3,5] mamy jedną trójkę: 3, 4, 5 (bo 3^2+4^2=5^2).*/
         public static void Zadanie14()
         {
             Console.WriteLine("Podaj dolny zakres przedzialu: ");
